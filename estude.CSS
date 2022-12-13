@@ -1,0 +1,217 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    position: relative;
+
+    background: #1B1D37;
+    mix-blend-mode: normal;
+
+
+
+}
+
+body {
+    background-color: #1B1D37;
+    height: max-content;
+
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 100px;
+
+}
+
+
+.container img {
+    background-image: url(imagens/Group\ 1.png);
+    margin-left: 1000px;
+    margin-top: 489px;
+    align-items: right;
+    margin-right: 2px;
+    padding-left: 850px;
+
+
+}
+
+.container {
+    clear: both;
+}
+
+
+/* Barra de Menus e Navegação */
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 132px;
+    margin-block: auto;
+
+
+}
+
+#menu img {
+    /* Logo Antares 1 */
+    position: relative;
+    width: 208px;
+    height: 106px;
+    top: -8px;
+
+}
+
+#menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block: 0;
+    width: 100%;
+
+}
+
+#menu .menu-links {
+    max-width: 1100px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-right: 58px;
+
+
+}
+
+#menu ul li {
+    text-align: center;
+    font-size: 1.0rem;
+    vertical-align: middle;
+    line-height: 90px;
+    justify-content: space-between
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+nav li:hover {
+    font-weight: bolder;
+}
+
+.video-maicon {
+    margin-inline: auto;
+}
+
+#titulo {
+    text-decoration: none;
+    color: #FFFFFF;
+    position:relative;
+    width: 852px;
+    height: 140px;
+    margin-top: 50px;
+    font-family: 'Inter';
+    font-style: bold;
+    font-size: 2.375rem;
+   margin-inline: auto;
+   font-weight: bold;
+   align-items: center;
+}
+#text1{
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 1.375rem;
+    color: #FFFFFF;
+    align-items: center;
+    margin-top: -40px;
+}
+#retangulo {
+    /* Rectangle 11 */
+    position: relative;
+    width: 55px;
+    height: 1475px;
+    margin-left: 1px;
+    margin-top: 460px;
+}
+
+.fundamentar {
+    font-family: 'Inter';
+    margin-left: 20px;
+
+}
+
+.especializar {
+    margin-top: 100px;
+    font-family: 'Inter';
+    margin-left: 20px;
+
+}
+
+.retangulo-flex {
+    display: flex;
+    margin-top: 50px;
+}
+
+
+footer .rodape {
+    font-family: 'Inter';
+    font-size: 9rem;
+    color: #FFFFFF;
+    padding-top: 700px;
+    padding-left: -4%;
+
+}
+/* ---- reset ---- */
+
+canvas {
+    display: block;
+  } 
+/* ---- particles.js container ---- */
+#particles-js {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #232741;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: 50% 50%;
+  } /* ---- stats.js ---- */
+  .count-particles {
+    position: relative;
+    top: 48px;
+    left: 0;
+    width: 80px;
+    color: #13e8e9;
+    font-size: 0.8em;
+    text-align: left;
+    text-indent: 4px;
+    line-height: 14px;
+    padding-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+  }
+  .js-count-particles {
+    font-size: 1.1em;
+  }
+  #stats,
+  .count-particles {
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  #stats {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+  }
+  .count-particles {
+    border-radius: 0 0 3px 3px;
+  }
+  
