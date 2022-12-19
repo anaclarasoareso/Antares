@@ -114,17 +114,18 @@ body {
 }
 
 form {
-    font-family: Verdana,Tahoma,sans-serif;
+    font-family: Inter,sans-serif;
     font-size: 15px;
-    background-color: #CC3300;
+    background-color: #564596;
     max-width: 500px;
+    position: center;
 }
 
 h1 {
     margin-bottom: 20px;
     margin-left: 20px;
-    color: #66FFFF;
-    text-shadow: 5px 5px 5px #fffff;
+    color: #FFFFFF;
+    text-shadow: 5px 5px 5px #ffffff;
 }
 
 input, textarea {
@@ -139,15 +140,13 @@ input, textarea {
 }
 
 input:hover, textarea:hover, input:focus, textarea:focus {
-    border-color: #000066;
     box-shadow: 5px 0px 9px #FFFF00;
-    background-color: #66FFFF;
     color: #fffff;
     font-weight: bold;
 }
 
 .enviar {
-    background-color: #66FFFF;
+    background-color: #22386c;
     height: 40px;
     width: 100px;
     font-weight: bold;
