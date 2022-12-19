@@ -108,10 +108,6 @@ nav li:hover{
     font-weight: bolder;
 }
 
-body {
-    padding: 0;
-    margin: 0;
-}
 
 form {
     font-family: Inter,sans-serif;
@@ -125,18 +121,14 @@ h1 {
     margin-bottom: 20px;
     margin-left: 20px;
     color: #FFFFFF;
-    text-shadow: 5px 5px 5px #ffffff;
 }
 
 input, textarea {
     width: 200px;
     padding: 10px;
     color: #fffff;
-    margin-left: 20px;
     margin-top: 10px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border: 1px solid;
+   
 }
 
 input:hover, textarea:hover, input:focus, textarea:focus {
@@ -146,7 +138,7 @@ input:hover, textarea:hover, input:focus, textarea:focus {
 }
 
 .enviar {
-    background-color: #22386c;
+    background-color: #1b1d37;
     height: 40px;
     width: 100px;
     font-weight: bold;
