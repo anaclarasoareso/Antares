@@ -134,8 +134,7 @@ input, textarea {
 }
 
 input:hover, textarea:hover, input:focus, textarea:focus {
-    box-shadow: 5px 0px 9px #FFFF00;
-    color: #fffff;
+    color: #ffffff;
     font-weight: bold;
 }
 
@@ -148,7 +147,7 @@ input:hover, textarea:hover, input:focus, textarea:focus {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border: 1px solid;
-    font-color: #fffff;
+    font-color: #ffffff;
 }
 
 textarea {
@@ -162,6 +161,8 @@ form label {
     margin-left: 20px;
     color: #FFFFFF;
     font-weight: bold;
+    align-items: center;
+
 }
 footer .rodape{
     font-family: 'Inter';
