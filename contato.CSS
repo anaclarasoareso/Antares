@@ -112,10 +112,10 @@ nav li:hover{
 form {
     font-family: Inter,sans-serif;
     font-size: 15px;
-    background-color: #564596;
     max-width: 500px;
     position: relative;
     align-items: center;
+    margin-left: 350px;
 
 }
 
@@ -139,15 +139,14 @@ input:hover, textarea:hover, input:focus, textarea:focus {
 }
 
 .enviar {
-    background-color: #1b1d37;
+    background-color: #8000ff;
     height: 40px;
     width: 100px;
     font-weight: bold;
-    border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border: 1px solid;
-    font-color: #ffffff;
+    color: white;
 }
 
 textarea {
